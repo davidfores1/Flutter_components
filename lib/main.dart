@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_components/router/app_routes.dart';
-
+  
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Material App',
       initialRoute: AppRoutes.initialRoute,
-      routes: AppRoutes.routes,
+      routes: AppRoutes.getAppRoutes(),
       onGenerateRoute: AppRoutes.onGenerateRoute
     );
   }
