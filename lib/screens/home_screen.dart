@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_components/router/app_routes.dart';
-import 'package:flutter_components/screens/screens.dart';
 
 void main() => runApp(const HomeScreen());
 
@@ -14,8 +13,7 @@ class HomeScreen extends StatelessWidget {
 
     return  Scaffold(
         appBar: AppBar(
-          title: const Text('Componentes en Flutter'),
-          elevation: 0,
+          title: const Text('Componentes en Flutter')
         ),
         body: ListView.separated(
           itemBuilder: (context, i) =>ListTile(
