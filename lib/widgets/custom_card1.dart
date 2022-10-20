@@ -13,8 +13,8 @@ class CustomCard1 extends StatelessWidget {
         children:  [
           const ListTile(
             leading:  Icon(Icons.photo_album_outlined, color: AppTheme.primary),
-            title: Text('Soy un titulo'),
-            subtitle: Text('StrutStyle? strutStyle, TextAlign? textAlign, TextDirection? textDirection, Locale? locale, bool? softWrap, TextOverflow? overflow, double? textScaleFactor, int? maxLines, String? semanticsLabel, TextWidthBasis? textWidthBasis, TextHeightBehavior? textHeightBehavior, Color? selectionColor'),
+            title: Text('Soy un viajero'),
+            subtitle: Text('En ocasiones los viajes incluyen una serie de imprevistos que no dependen de nosotros. Para evitar que esto suceda, y que nuestro viaje sea mejor aún de lo esperado, existen una serie de recomendaciones que está bien tener en cuenta y aplicarlas.'),
           ),
 
           Padding(
