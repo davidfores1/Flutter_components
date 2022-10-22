@@ -13,7 +13,9 @@ class AppRoutes {
     MenuOption(route: 'alert', name: 'Alert', screen: const AlertScreen(), icon: Icons.campaign_outlined),
     MenuOption(route: 'card', name: 'Card', screen: const CardScreen(), icon: Icons.credit_card),
     MenuOption(route: 'avatar', name: 'Circle Avatar', screen: const AvatarScreen(), icon: Icons.supervised_user_circle_outlined),
-    MenuOption(route: 'animated', name: 'Animated Container', screen: const AnimateScreen(), icon: Icons.play_circle_filled_outlined)
+    MenuOption(route: 'animated', name: 'Animated Container', screen: const AnimateScreen(), icon: Icons.play_circle_filled_outlined),
+    MenuOption(route: 'inputs', name: 'Text Inputs', screen: const InputsScreen(), icon: Icons.input_rounded)
+
   ];
 
  
