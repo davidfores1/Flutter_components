@@ -9,6 +9,8 @@ final String? helperText;
 final String? counterText;
 final IconData? icon;
 final IconData? suffixIcon;
+final TextInputType? textInputType;
+final bool obscureText;
 
   const CustomInputField({
     Key? key,  
@@ -17,7 +19,9 @@ final IconData? suffixIcon;
     this.helperText,  
     this.counterText,
     this.icon, 
-    this.suffixIcon,
+    this.suffixIcon, 
+    this.textInputType, 
+    this.obscureText = false,
   }) : super(key: key);
 
   @override
@@ -26,6 +30,8 @@ final IconData? suffixIcon;
       autofocus: true,
       initialValue: '',
       textCapitalization: TextCapitalization.words,
+      keyboardType: textInputType,
+      obscureText: obscureText,
       onChanged: (value) {
         print('value: $value');
       } ,
